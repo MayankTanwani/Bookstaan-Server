@@ -1,21 +1,21 @@
 const Sequelize = require('sequelize')
 
-// const db = new Sequelize('heroku_83b8f66681e3f3e','b26016eeca0119','ee3b64f4',{
-//     host : 'us-cdbr-iron-east-04.cleardb.net',
-//     dialect : 'mysql',
-//     pool : {
-//         min : 0,
-//         max : 5,
-//     }
-// })
-const db = new Sequelize('booksdb','booker','bookpass',{
-    host : 'localhost',
+const db = new Sequelize('heroku_83b8f66681e3f3e','b26016eeca0119','ee3b64f4',{
+    host : 'us-cdbr-iron-east-04.cleardb.net',
     dialect : 'mysql',
     pool : {
         min : 0,
         max : 5,
     }
 })
+// const db = new Sequelize('booksdb','booker','bookpass',{
+//     host : 'localhost',
+//     dialect : 'mysql',
+//     pool : {
+//         min : 0,
+//         max : 5,
+//     }
+// })
 
 
 
