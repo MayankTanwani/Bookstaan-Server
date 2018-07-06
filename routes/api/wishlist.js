@@ -57,11 +57,10 @@ function addNewItems(req,res){
 function removeItem(req,res){
     WishList.destroy({
         where : {
-            bookID : +req.body.bookID,
-            userID : +req.body.userID
+            id : +req.body.id
         }
     })
-        .then((items) => res.status(200).send(items))
+        .then((items) => res.status(200))
         .catch((error) => console.log(error))
 }
 

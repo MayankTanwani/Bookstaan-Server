@@ -3,12 +3,25 @@ const Op = require('../../db').Op
 const route = require('express').Router();
 
 route.get('/',getAllListings)
+route.post('/',getAllUserListings)
+route.post('/post',getAllUserListings)
 route.get('/price',filterByPrice)
 route.get('/condition',filterByCondition)
 route.get('/queryName',filterByName)
 route.get('/queryAuthor',filterByAuthor)
 route.get('/filter',filterByBoth)
 route.post('/add',addNewListing)
+
+
+function getAllUserListings(req,res) {
+    let userID = +req.body.userID
+    Listing.findAll({
+        where : {
+            seller : userID
+        }
+    }).then((items) => res.status(200).send(items))
+        .catch((error) => console.log(error))
+}
 
 function getAllListings(req,res) {
     if(req.query.id !==undefined) {

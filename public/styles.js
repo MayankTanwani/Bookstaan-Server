@@ -130,6 +130,17 @@ module.exports = "@charset \"UTF-8\";\n/*!\n *  Font Awesome 4.7.0 by @davegandy
 /*! no static exports found */
 /***/ (function(module, exports) {
 
+module.exports = ""
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/index.js!./node_modules/postcss-loader/lib/index.js??embedded!./src/creative.css":
+/*!************************************************************************************************!*\
+  !*** ./node_modules/raw-loader!./node_modules/postcss-loader/lib??embedded!./src/creative.css ***!
+  \************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
 module.exports = "\napp-home {\n  width: 100%;\n  height: 100%;\n}\n\napp-home {\n  font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;\n}\n\nhr {\n  max-width: 50px;\n  border-width: 3px;\n  border-color: #F05F40;\n}\n\nhr.light {\n  border-color: #fff;\n}\n\na {\n  color: #F05F40;\n  transition: all 0.2s;\n}\n\na:hover {\n  color: #f05f40;\n}\n\nh1,\nh2,\nh3,\nh4,\nh5,\nh6 {\n  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;\n}\n\nh2 {\n  font-weight: 500;\n}\n\napp-home{\n  font-weight: 400;\n}\n\n.bg-primary {\n  background-color: #F05F40 !important;\n}\n\n.bg-dark {\n  background-color: #212529 !important;\n}\n\n.text-faded {\n  color: rgba(255, 255, 255, 0.7);\n}\n\nsection {\n  padding: 8rem 0;\n}\n\n.section-heading {\n  margin-top: 0;\n}\n\n::-moz-selection {\n  color: #fff;\n  background: #212529;\n  text-shadow: none;\n}\n\n::selection {\n  color: #fff;\n  background: #212529;\n  text-shadow: none;\n}\n\nimg::-moz-selection {\n  color: #fff;\n  background: transparent;\n}\n\nimg::selection {\n  color: #fff;\n  background: transparent;\n}\n\nimg::-moz-selection {\n  color: #fff;\n  background: transparent;\n}\n\n#mainNav {\n  border-bottom: 1px solid rgba(33, 37, 41, 0.1);\n  background-color: #fff;\n  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;\n  transition: all 0.2s;\n}\n\n#mainNav .navbar-brand {\n  font-weight: 700;\n  text-transform: uppercase;\n  color: #F05F40;\n  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;\n}\n\n#mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {\n  color: #f05f40;\n}\n\n#mainNav .navbar-nav > li.nav-item > a.nav-link,\n#mainNav .navbar-nav > li.nav-item > a.nav-link:focus {\n  font-size: .9rem;\n  font-weight: 700;\n  text-transform: uppercase;\n  color: #212529;\n}\n\n#mainNav .navbar-nav > li.nav-item > a.nav-link:hover,\n#mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {\n  color: #F05F40;\n}\n\n#mainNav .navbar-nav > li.nav-item > a.nav-link.active,\n#mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active {\n  color: #F05F40 !important;\n  background-color: transparent;\n}\n\n#mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover,\n#mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active:hover {\n  background-color: transparent;\n}\n\n@media (min-width: 992px) {\n  #mainNav {\n    border-color: transparent;\n    background-color: transparent;\n  }\n  #mainNav .navbar-brand {\n    color: rgba(255, 255, 255, 0.7);\n  }\n  #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {\n    color: #fff;\n  }\n  #mainNav .navbar-nav > li.nav-item > a.nav-link {\n    padding: 0.5rem 1rem;\n  }\n  #mainNav .navbar-nav > li.nav-item > a.nav-link,\n  #mainNav .navbar-nav > li.nav-item > a.nav-link:focus {\n    color: rgba(255, 255, 255, 0.7);\n  }\n  #mainNav .navbar-nav > li.nav-item > a.nav-link:hover,\n  #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {\n    color: #fff;\n  }\n  #mainNav.navbar-shrink {\n    border-bottom: 1px solid rgba(33, 37, 41, 0.1);\n    background-color: #fff;\n  }\n  #mainNav.navbar-shrink .navbar-brand {\n    color: #F05F40;\n  }\n  #mainNav.navbar-shrink .navbar-brand:focus, #mainNav.navbar-shrink .navbar-brand:hover {\n    color: #f05f40;\n  }\n  #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link,\n  #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus {\n    color: #212529;\n  }\n  #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:hover,\n  #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus:hover {\n    color: #F05F40;\n  }\n}\n\nheader.masthead {\n  padding-top: 10rem;\n  padding-bottom: calc(10rem - 56px);\n  background: url('header.jpg') center center;\n  background-size: cover;\n}\n\nheader.masthead hr {\n  margin-top: 30px;\n  margin-bottom: 30px;\n}\n\nheader.masthead h1 {\n  font-size: 2rem;\n}\n\nheader.masthead p {\n  font-weight: 300;\n}\n\n@media (min-width: 768px) {\n  header.masthead p {\n    font-size: 1.15rem;\n  }\n}\n\n@media (min-width: 992px) {\n  header.masthead {\n    height: 100vh;\n    min-height: 650px;\n    padding-top: 0;\n    padding-bottom: 0;\n  }\n  header.masthead h1 {\n    font-size: 3rem;\n  }\n}\n\n@media (min-width: 1200px) {\n  header.masthead h1 {\n    font-size: 4rem;\n  }\n}\n\n.service-box {\n  max-width: 400px;\n}\n\n.portfolio-box {\n  position: relative;\n  display: block;\n  max-width: 650px;\n  margin: 0 auto;\n}\n\n.portfolio-box .portfolio-box-caption {\n  position: absolute;\n  bottom: 0;\n  display: block;\n  width: 100%;\n  height: 100%;\n  text-align: center;\n  opacity: 0;\n  color: #fff;\n  background: rgba(240, 95, 64, 0.9);\n  transition: all 0.2s;\n}\n\n.portfolio-box .portfolio-box-caption .portfolio-box-caption-content {\n  position: absolute;\n  top: 50%;\n  width: 100%;\n  -webkit-transform: translateY(-50%);\n          transform: translateY(-50%);\n  text-align: center;\n}\n\n.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category,\n.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {\n  padding: 0 15px;\n  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;\n}\n\n.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {\n  font-size: 14px;\n  font-weight: 600;\n  text-transform: uppercase;\n}\n\n.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {\n  font-size: 18px;\n}\n\n.portfolio-box:hover .portfolio-box-caption {\n  opacity: 1;\n}\n\n.portfolio-box:focus {\n  outline: none;\n}\n\n@media (min-width: 768px) {\n  .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {\n    font-size: 16px;\n  }\n  .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {\n    font-size: 22px;\n  }\n}\n\n.text-primary {\n  color: #F05F40 !important;\n}\n\n.btn {\n  font-weight: 700;\n  text-transform: uppercase;\n  border: none;\n  border-radius: 300px;\n  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;\n}\n\napp-home.btn-xl {\n  padding: 1rem 2rem;\n}\n\napp-home.btn-primary {\n  background-color: #F05F40;\n  border-color: #F05F40;\n}\n\napp-home.btn-primary:hover, app-home.btn-primary:focus, app-home.btn-primary:active {\n  color: #fff;\n  background-color: #ee4b28 !important;\n}\n\napp-home.btn-primary:active, app-home.btn-primary:focus {\n  box-shadow: 0 0 0 0.2rem rgba(240, 95, 64, 0.5) !important;\n}\n"
 
 /***/ }),
@@ -625,6 +636,36 @@ module.exports = function (css) {
 
 /***/ }),
 
+/***/ "./src/creative.css":
+/*!**************************!*\
+  !*** ./src/creative.css ***!
+  \**************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../node_modules/raw-loader!../node_modules/postcss-loader/lib??embedded!./creative.css */ "./node_modules/raw-loader/index.js!./node_modules/postcss-loader/lib/index.js??embedded!./src/creative.css");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(false) {}
+
+/***/ }),
+
 /***/ "./src/styles.scss":
 /*!*************************!*\
   !*** ./src/styles.scss ***!
@@ -656,15 +697,16 @@ if(false) {}
 /***/ }),
 
 /***/ 2:
-/*!***********************************************************************************************************************************************************************************************************!*\
-  !*** multi ./node_modules/font-awesome/scss/font-awesome.scss ./node_modules/angular-bootstrap-md/scss/bootstrap/bootstrap.scss ./node_modules/angular-bootstrap-md/scss/mdb-free.scss ./src/styles.scss ***!
-  \***********************************************************************************************************************************************************************************************************/
+/*!******************************************************************************************************************************************************************************************************************************!*\
+  !*** multi ./node_modules/font-awesome/scss/font-awesome.scss ./node_modules/angular-bootstrap-md/scss/bootstrap/bootstrap.scss ./node_modules/angular-bootstrap-md/scss/mdb-free.scss ./src/creative.css ./src/styles.scss ***!
+  \******************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(/*! /home/mayank/WebstormProjects/BookSiteAngular/node_modules/font-awesome/scss/font-awesome.scss */"./node_modules/font-awesome/scss/font-awesome.scss");
 __webpack_require__(/*! /home/mayank/WebstormProjects/BookSiteAngular/node_modules/angular-bootstrap-md/scss/bootstrap/bootstrap.scss */"./node_modules/angular-bootstrap-md/scss/bootstrap/bootstrap.scss");
 __webpack_require__(/*! /home/mayank/WebstormProjects/BookSiteAngular/node_modules/angular-bootstrap-md/scss/mdb-free.scss */"./node_modules/angular-bootstrap-md/scss/mdb-free.scss");
+__webpack_require__(/*! /home/mayank/WebstormProjects/BookSiteAngular/src/creative.css */"./src/creative.css");
 module.exports = __webpack_require__(/*! /home/mayank/WebstormProjects/BookSiteAngular/src/styles.scss */"./src/styles.scss");
 
 
